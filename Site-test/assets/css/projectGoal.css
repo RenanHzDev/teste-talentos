@@ -1,0 +1,108 @@
+/*Config Geral*/
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+}
+
+header img {
+  margin-left: 104px;
+  rotate: -9.18°;
+}
+
+main {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 100%;
+}
+
+/*Main*/
+
+#img2 {
+  width: 940px;
+  height: 856px;
+}
+
+#infos {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  height: 890px;
+}
+
+#infos h1 {
+  font-family: IBM Plex Sans;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 104px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#infos p {
+  font-family: IBM Plex Sans;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content {
+    margin-left: 245px;
+}
+
+/*Botao*/
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 537px;
+}
+
+#btn {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  font-size: 40px;
+  color: #e5e5e5;
+  cursor: pointer;
+  background-color: none;
+  border: none;
+}
+
+#btn img {
+  width: 80px;
+  background: none;
+}
+
+#btn img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  filter: drop-shadow(-15px 10px 5px rgba(0, 0, 0, 0.5));
+}
+
+#btn2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  font-size: 40px;
+  color: #e5e5e5;
+  cursor: pointer;
+  background-color: none;
+  border: none;
+}
+
+#btn2 img {
+  width: 80px;
+  background: none;
+}
+
+#btn2 img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+}

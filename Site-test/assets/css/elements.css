@@ -1,0 +1,136 @@
+/*Config Geral*/
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+}
+
+header img {
+  gap: 88px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+/*Header*/
+
+.img1 {
+  position: absolute;
+  top: -31.09px;
+  left: 88px;
+}
+
+/*Main*/
+
+#infos {
+  display: flex;
+  flex-direction: column;
+  font-family: IBM Plex Sans;
+  width: 1380px;
+  margin-top: 224px;
+}
+
+#infos h1 {
+  font-family: IBM Plex Sans;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 104px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#lista {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 90px;
+}
+
+#lista h2 {
+  font-family: IBM Plex Sans;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#lista ul {
+  list-style-type: "\268A";
+  color: rgb(53, 53, 53);
+}
+
+#lista li {
+  font-family: IBM Plex Sans;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  word-break: break-all;
+}
+
+.digital,
+.collateral {
+  height: 100%;
+  max-width: 400px;
+}
+
+/*Botao*/
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 377px;
+}
+
+#btn {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  font-size: 40px;
+  color: #e5e5e5;
+  cursor: pointer;
+  background-color: none;
+  border: none;
+}
+
+#btn img {
+  width: 80px;
+  background: none;
+}
+
+#btn img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  filter: drop-shadow(-15px 10px 5px rgba(0, 0, 0, 0.5));
+}
+
+#btn2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  font-size: 40px;
+  color: #e5e5e5;
+  cursor: pointer;
+  background-color: none;
+  border: none;
+  margin-right: 100px;
+}
+
+#btn2 img {
+  width: 80px;
+  background: none;
+}
+
+#btn2 img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+}

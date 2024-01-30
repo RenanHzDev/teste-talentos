@@ -1,0 +1,156 @@
+/*Config Geral*/
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 224px;
+  left: 245px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: auto auto;
+  padding: 0px 0px;
+}
+
+/*Itens Header*/
+
+.dolar {
+  position: absolute;
+  top: -5 px;
+  left: 118.24px;
+  width: 93.68px;
+  height: 172.37px;
+  background: none;
+}
+
+.euro {
+  position: absolute;
+  top: -0.03px;
+  left: 188.18px;
+  background: none;
+}
+
+.libra {
+  position: absolute;
+  width: 103.19px;
+  height: 167.55px;
+  top: 21.19px;
+  left: 276.51px;
+  border: 1px;
+  background: none;
+}
+
+/*Main content*/
+
+main h1 {
+  font-family: IBM Plex Sans;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 104px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.listas {
+  display: flex;
+  flex-direction: row;
+}
+
+.listas .A, .B, .C {
+  padding-right: 40px;
+}
+
+.listas h2 {
+  font-family: IBM Plex Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 89px;
+}
+
+.listas p {
+  font-family: IBM Plex Sans;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  list-style-type: none;
+  max-width: 450px;
+}
+
+/*Btn Link*/
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 161px;
+}
+
+#btn {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  font-size: 40px;
+  color: #E5E5E5;
+  cursor: pointer;
+  background-color: none;
+  border: none;
+}
+
+#btn img {
+  width: 80px;
+  background: none;
+}
+
+#btn img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  filter: drop-shadow(-15px 10px 5px rgba(0,0,0,.5));
+}
+
+#btn2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  font-size: 40px;
+  color: #E5E5E5;
+  cursor: pointer;
+  background-color: none;
+  border: none;
+  margin-right: 100px;
+
+}
+
+#btn2 img {
+  width: 80px;
+  background: none;
+}
+
+#btn2 img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+

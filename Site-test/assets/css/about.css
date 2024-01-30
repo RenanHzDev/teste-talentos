@@ -1,0 +1,118 @@
+/*Config Geral*/
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-family: IBM Plex Serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+header img {
+  position: absolute;
+  left: 89.7px;
+  border: 10px;
+}
+
+/*Main content*/
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 224px 245px 4px 245px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.content h1 {
+  font-family: "IBM Plex Sans";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #000;
+}
+
+.content h2 {
+  font-family: "IBM Plex Sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #000;
+}
+
+.content p {
+  font-family: "IBM Plex Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+  width: 695px;
+  word-break: keep-all;
+
+}
+
+.content a {
+  font-family: "IBM Plex Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--Green, #007e42);
+}
+
+.imagem img {
+  width: 450px;
+  height: 632px;
+  flex-shrink: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 90px;
+  height: 100%;
+  width: 100%;
+}
+
+#btn {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  font-size: 40px;
+  color: #e5e5e5;
+  cursor: pointer;
+  background-color: none;
+  border: none;
+}
+
+#btn img {
+  width: 80px;
+  background: none;
+}
+
+#btn img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  filter: drop-shadow(-15px 10px 5px rgba(0, 0, 0, 0.5));
+}
